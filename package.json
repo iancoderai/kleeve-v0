@@ -1,0 +1,35 @@
+{
+  "name": "kleeve",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@expo-google-fonts/outfit": "^0.4.3",
+    "@expo/ngrok": "^4.1.3",
+    "expo": "~58.0.17",
+    "expo-build-properties": "~58.0.11",
+    "expo-dev-client": "~58.0.14",
+    "expo-file-system": "~58.0.10",
+    "expo-font": "~58.0.10",
+    "expo-image": "~58.0.17",
+    "expo-media-library": "~58.0.11",
+    "expo-notifications": "~58.1.6",
+    "expo-symbols": "~58.0.4",
+    "expo-system-ui": "~58.0.6",
+    "expo-video": "~58.0.12",
+    "react": "19.3.0",
+    "react-native": "0.88.0",
+    "react-native-svg": "15.16.0"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "test": "node --test fill.test.js",
+    "lint": "expo lint"
+  },
+  "private": true,
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-config-expo": "~58.0.4"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Kleeve",
+    "slug": "Buzzwipe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#000000",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.buzzwipe.app"
+    },
+    "android": {
+      "package": "com.buzzwipe.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Kleeve shows your photos and videos so you can keep or delete them.",
+          "savePhotosPermission": false,
+          "granularPermissions": [
+            "photo",
+            "video"
+          ]
+        }
+      ],
+      "expo-video",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/android-icon-monochrome.png",
+          "color": "#FF8A1F"
+        }
+      ],
+      "expo-font",
+      "expo-image"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c6ca2004-6cd0-448c-9d5c-c9750739989c"
+      }
+    },
+    "owner": "1iancoderai18"
+  }
+}
